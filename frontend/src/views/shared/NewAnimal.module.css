@@ -1,0 +1,15 @@
+.form{
+  width: 90%;
+  max-width: 700px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form label{
+  margin-top: 2rem;
+  margin-bottom: .5rem;
+}
+
+.form input{
+}

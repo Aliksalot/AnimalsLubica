@@ -2,13 +2,14 @@ import { useState } from 'react'
 import './App.css'
 import {Router, Routes, Route} from 'react-router-dom';
 import Home from './views/Home/Home';
+import NewAnimal from './views/shared/NewAnimal';
 
 function App() {
-  console.log("app");
   return (
     <>
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/new' element={<NewAnimal />} />
         </Routes>
     </>
   )
